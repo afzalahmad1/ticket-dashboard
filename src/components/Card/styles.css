@@ -13,6 +13,9 @@
     border-radius: 7px;
     background-color:#dddddd85;
     min-width: 400px;
+    /* max-width: 400px; */
+    inline-size: 150px;
+    overflow-wrap: break-word;
     box-shadow: 1px 10px 10px -5px gray;
 }
 .icons{
