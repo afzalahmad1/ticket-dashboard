@@ -1,0 +1,26 @@
+.card-Container{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    gap: 1.5rem;
+
+}
+.card{
+    border: 1px solid #ddd;
+    padding: .5rem 1rem;
+    border-radius: 7px;
+    background-color:#dddddd85;
+    min-width: 400px;
+    box-shadow: 1px 10px 10px -5px gray;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+}
+#delete{
+    cursor: pointer;
+}

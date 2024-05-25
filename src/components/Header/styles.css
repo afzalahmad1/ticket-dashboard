@@ -1,0 +1,92 @@
+.header-container{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row wrap;
+    padding: 1rem;
+    border-bottom: 1px solid #ddd;
+    box-shadow: 1px 10px 10px -12px gray;
+}
+.container-left{
+    display: flex;
+    /* border: 1px solid red; */
+    justify-content: flex-start;
+    align-items: center;
+    flex-flow: row wrap;
+    column-gap: 4rem;
+}
+.left-half{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+}
+.conteiner-right{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2rem;
+}
+#notes{
+    border: 1px solid rgba(11, 11, 250, 0.822);;
+    padding: .5rem 1.5rem;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: rgba(11, 11, 250, 0.822);
+    color: #fff;
+    box-shadow: 1px 10px 10px -5px gray;
+    
+}
+#account{
+    border: 1px solid #ddd;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 18px;
+    background-color: #ddd;
+}
+
+
+@media screen and (max-width: 1075px) {
+    .header-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        row-gap: 1rem;
+    }
+    /* .left-half{
+        border: 2px solid red;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+    } */
+
+    .container-left{
+        display: flex;
+        /* border: 1px solid red; */
+        justify-content: center;
+        align-items: center;
+        flex-flow: row wrap;
+        row-gap: 1rem;
+
+    }
+    
+  }
+ 
+  @media screen and (max-width: 400px) and (min-width: 100px) {
+    .header-container{
+        /* border: 1px solid red; */
+        display: flex;
+        justify-content: space-between;
+        row-gap: 1rem;
+        align-items: center;
+        flex-flow: row wrap;
+        padding: 1rem .8rem;
+        border-bottom: 1px solid #ddd;
+    }
+  }
